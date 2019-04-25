@@ -42,11 +42,11 @@
   NFS="n"
   READAHEAD="n"
   SAMBA="n"
-  SSH="n"
+  SSH="y"
   TLP="n"                # Laptop Power Manager
   ZRAM="n"
-  ZSH="n"
-  OH_MY_ZSH="n"
+  ZSH="y"
+  OH_MY_ZSH="y"
   BETTER_VIDEO_DRIVER="y" # NVIDIA/AMDGPU
   FONTCONFIG="y"
   #}}}
@@ -82,14 +82,14 @@
   #12) i3
   #13) OpenBox
   #14) Xmonad
-  DESKTOPENV="4"
+  DESKTOPENV="8"
   #KDE {{{
     # 1) Choqok
     # 2) Digikam
     # 3) K3b
     # 4) Skrooge
     # 5) Yakuake
-    KDE_OPTIONS="1-5"
+    KDE_OPTIONS=""
   #}}}
   #ESSENTIAL APPS [Enlightenment,LXDE,Awesome,Fluxbox,OpenBox] {{{
     # 1) Display Manager
@@ -175,7 +175,7 @@
   #22) Regexxer
   #23) Postman
   #24) Gitkraken
-  DEVELOPMENT_OPTIONS="17"
+  DEVELOPMENT_OPTIONS="8 18 23"
 #}}}
 #OFFICE {{{
   # 1) Abiword+Gnumeric|Calligra
@@ -189,7 +189,7 @@
   # 9) Tellico
   #10) Typora
   #11) Xmind
-  OFFICE_OPTIONS="6"
+  OFFICE_OPTIONS=""
 #}}}
 #SYSTEM TOOLS {{{
   # 1) ClamAV
@@ -208,7 +208,7 @@
   #14) netdata
   #15) nload
   #16) vmware-workstation12
-  SYSTEMTOOLS_OPTIONS="11 13"
+  SYSTEMTOOLS_OPTIONS=""
 #}}}
 #GRAPHICS {{{
   # 1) Blender
@@ -222,7 +222,7 @@
   # 9) Shotwell
   #10) Simple Scan
   #11) YACReader
-  GRAPHICS_OPTIONS="2-5 9"
+  GRAPHICS_OPTIONS=""
 #}}}
 #INTERNET {{{
   # 1) Browser
@@ -240,7 +240,7 @@
     # 5) Opera
     # 6) Vivaldi
     # 7) Tor-browser
-    BROWSERS_OPTIONS="3"
+    BROWSERS_OPTIONS="1 3"
   #}}}
   #DOWNLOAD|FILESHARE {{{
     #  1) Deluge
@@ -280,7 +280,7 @@
     # 11) Slack
     # 12) VK Messanger
     # 13) Zoom.us
-    IM_OPTIONS="4"
+    IM_OPTIONS="4 10 11"
   #}}}
   #MAPPING {{{
     # 1) Google Earth
@@ -347,7 +347,7 @@
     # 7) Openshot
     # 8) Pitivi
     # 9) Transmageddon
-    VIDEO_EDITOR_OPTIONS="8"
+    VIDEO_EDITOR_OPTIONS=""
   #}}}
 #}}}
 #GAMES {{{
@@ -362,7 +362,7 @@
   # 2) LAPP - APACHE, POSTGRESQL & PHP
   # 3) LEMP - NGINX, MariaDB & PHP
   # 4) LEPP - NGINX, POSTGRESQL & PHP
-  WEBSERVER="4"
+  WEBSERVER=""
   POSTGIS="n"
 #}}}
 #FONTS {{{
